@@ -10,7 +10,7 @@ class Solution{
         //Your code here
         int x1=a[0];
         int x2,x3 = -1;
-        for(int i=0; i<n; i++) {
+        for(int i=1; i<n; i++) {
             if(a[i]>x1) {
                 x3=x2;
                 x2=x1;
